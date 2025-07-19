@@ -5,7 +5,7 @@
 It also includes a simple bonus bot capable of responding to basic keywords inside a channel.
 
 
-## 🚀 Features
+## Features
 
 - Multi-user chat server over TCP
 - Handles multiple clients simultaneously
@@ -18,14 +18,14 @@ It also includes a simple bonus bot capable of responding to basic keywords insi
 - **Bonus**: Simple IRC bot connects to the server and automatically joins a channe, then responds to specific keywords.
 
 
-## 🛠️ System Calls Used
+## System Calls Used
 - `socket()`, `bind()`, `listen()`, `accept()`
 - `recv()`, `send()`
 - `poll()` for I/O multiplexing
 - `close()`
 - `getaddrinfo()`, `inet_ntoa()`, etc...
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/ft_irc.git
@@ -33,7 +33,7 @@ cd ft_irc
 make
 ```
 
-## 🧪 Usage - examples
+## Usage - examples
 Launch the server with chosen port and password as arguments :
 ```bash
 ./ircserv 6667 example-password
