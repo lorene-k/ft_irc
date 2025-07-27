@@ -15,7 +15,7 @@ It also includes a simple bonus bot capable of responding to basic keywords insi
 - Implements message broadcasting to channel members
 - Authentication via server password
 - Graceful connection handling and user cleanup
-- **Bonus**: Simple IRC bot connects to the server and automatically joins a channe, then responds to specific keywords.
+- Bonus: Simple IRC bot connects to the server and automatically joins a channe, then responds to specific keywords.
 
 
 ## System Calls Used
@@ -46,7 +46,7 @@ You can connect to your IRC server using `nc` (netcat) for testing purposes:
 ```bash
 nc localhost 6667
 ```
-Once connected, type the following IRC commands manually:
+Once connected, type the following IRC commands :
 
 PASS 'password' \
 NICK nickname \
